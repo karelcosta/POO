@@ -6,7 +6,7 @@ def separar():
 
 def cadastrar_funcionario():
     nome = input('informe o nome do funcionario: ')
-    cpf = input('informe o cpf do funcionario: ')
+    cpf = int(input('informe o cpf do funcionario: '))
     cargo = input('informe o cargo do funcionario: ')
     salario = float(input('informe o salario do funcionario: '))
     telefone = []
